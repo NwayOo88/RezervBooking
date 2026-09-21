@@ -1,0 +1,45 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+**/bin/
+**/obj/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code local settings
+.vscode/
+
+# Test results / coverage
+TestResults/
+coverage/
+coverage.*
+*.trx
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local-only configuration / secrets
+secrets.json
+*.local.json
+.env
+.env.*
+
+# NuGet local artifacts
+*.nupkg
+packages/
+
+# Temporary files
+*.tmp
+*.temp
